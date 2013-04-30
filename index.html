@@ -11,7 +11,7 @@
             height:500px;
             margin-left:auto;
             margin-right:auto;
-            background-image: url("meme-pinwheel.jpeg");
+            background-image: url("/coolnoah/meme-pinwheel.jpeg");
             background-size: 100% auto;
             background-repeat: no-repeat;
         }
@@ -36,7 +36,7 @@ bgLoop.addEventListener('ended', function() {
     bgLoop.play();
 }, false);
 
-bgLoop.src = 'test-loop.wav';
+bgLoop.src = '/coolnoah/test-loop.wav';
 bgLoop.play();
 
 var surface;
@@ -51,7 +51,7 @@ function drawCanvas() {
         // If Canvas is supported, load the image
         happy = new Image();
         happy.onload = loadingComplete;
-        happy.src = "cool_noah.png";
+        happy.src = "/coolnoah/cool_noah.png";
     }
 }
 
